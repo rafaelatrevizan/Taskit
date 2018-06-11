@@ -8,7 +8,12 @@
     <artifactId>webdriverJava</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <dependencies>
+    <properties>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+    </properties>
+
+        <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
@@ -43,8 +48,6 @@
             <version>4.2</version>
         </dependency>
 
-
-
     </dependencies>
 
-</project>
+         </project>

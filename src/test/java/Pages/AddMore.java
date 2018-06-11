@@ -5,8 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-import static org.junit.Assert.assertEquals;
-
 public class AddMore extends BasePage {
     private WebElement add = nav.findElement(By.id("addmoredata"));
 
@@ -35,9 +33,6 @@ public class AddMore extends BasePage {
         chooseTipeContact(tipo);
         typeContact(contato);
         clickSave();
-        WebElement msgSucesso = nav.findElement(By.id("toast-container"));
-        String confirmacao = msgSucesso.getText();
-        assertEquals("Your contact has been added!",confirmacao);
 
         return new MePage(nav);
     }

@@ -1,0 +1,12 @@
+Pages\MePage.class
+Pages\BasePage.class
+tests\InformacoesUsuariosTest.class
+Pages\HomePage.class
+Suporte\Generator.class
+Suporte\Screenshot.class
+Suporte\Web.class
+Pages\AddMore.class
+Suporte\BaseScreen.class
+Pages\LoginFormPage.class
+Pages\LoginPage.class
+tests\InformacoesUsuarioPageObjectsTest.class
